@@ -1,0 +1,27 @@
+{
+  "port": 8765,
+  "limits_csv": "~/.config/claude-token-manager/limits.csv",
+  "transcripts_dir": "~/.claude/projects",
+  "data_dir": "~/.config/claude-token-manager",
+  "markdown_queue": null,
+  "markdown_status_keywords": {},
+  "markdown_overrides": {},
+  "outbox_dir": "~/.config/claude-token-manager/outbox",
+  "rate_window_hours": 6,
+  "token_days": 7,
+  "warn_pct": 80,
+  "token_weights": {},
+  "tokens_per_pct_7d": null,
+  "runner": {
+    "command": ["claude"],
+    "args": ["--output-format", "json"],
+    "extra_args": [],
+    "cwd": null,
+    "briefing": null,
+    "max_hours_per_job": 4,
+    "max_attempts": 3,
+    "wait_minutes": 30,
+    "stop_at_5h_pct": 98,
+    "log_dir": null
+  }
+}
