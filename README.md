@@ -97,3 +97,7 @@ consumo reale (differenza dei valori nel CSV fra inizio e fine lavoro; misure in
 Fase 3: import markdown con stati dalle parole chiave e `markdown_overrides`; ordini all'orchestratore come file in `outbox_dir` (l'app non esegue nulla). Fase 2: proiezione robusta (media di finestra, «dati insufficienti»), conflitti fra lavori con `targets` sovrapposti, resoconto `python3 -m ctm report`.
 Avvio: `python3 -m ctm` poi apri http://127.0.0.1:8765. Solo libreria standard, tutto in locale, nessuna rete.
 Per alimentare i limiti aggiungi `statusline/log-limits.sh` alla tua statusline (non viene installato da solo).
+
+## License
+
+MIT, see [LICENSE](LICENSE).
